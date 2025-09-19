@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login/Register — Contact / Register</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+  <div class="topbar" role="navigation" aria-label="Primary">
+    <div class="nav">
+      <div class="brand">GO SOLUTIONS</div>
+      <ul>
+        <li><a href="index.html#top">Home</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="secondary.html">Login/Register</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main class="wrap" style="padding:40px 16px;max-width:900px;margin:0 auto;">
+  <h1>Login/Register</h1>
+    <p class="muted">Use this page for contact, registration or login forms.</p>
+
+    <section class="section" aria-labelledby="form-heading">
+      <h2 id="form-heading">Contact / Register</h2>
+      <form class="form" id="secondaryForm" aria-describedby="secondary-help">
+        <div class="row">
+          <label for="fullname">Full name</label>
+          <input id="fullname" name="fullname" type="text" placeholder="Jane Doe" required />
+          <label for="email2">Email</label>
+          <input id="email2" name="email2" type="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="row">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" placeholder="janedoe" />
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="••••••••" />
+        </div>
+
+        <div>
+          <label for="notes">Notes / Message</label>
+          <textarea id="notes" name="notes" rows="5" placeholder="Tell us about your project or why you want to register"></textarea>
+        </div>
+
+        <div id="secondary-help" class="muted" style="margin-top:8px">All fields are optional except name and email. We'll never share your data.</div>
+
+        <button class="cta" type="submit" style="margin-top:12px">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="foot">
+      <span>Copyright GO Inc. 2025. Developed by Gladys Olomukoro.</span>
+    </div>
+  </footer>
+
+</body>
+</html>

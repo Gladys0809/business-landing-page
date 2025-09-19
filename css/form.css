@@ -1,0 +1,5 @@
+  form{display:grid;gap:12px;max-width:400px;width:100%}
+    input,textarea{padding:10px 12px;font-family:inherit;font-size:14px;border:1px solid #cbd5e1;border-radius:8px}
+    textarea{resize:vertical;min-height:100px}
+    button{background:var(--accent);color:#1a202c;border:none;padding:12px;border-radius:8px;font-weight:600;cursor:pointer;box-shadow:var(--shadow)}
+    button:hover{background:var(--accent-700)}

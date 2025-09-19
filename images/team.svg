@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6ee7b7"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <style>
+      .bg { fill: url(#g); }
+      .text { font-family: Inter, Arial, sans-serif; fill: #fff; font-weight:600 }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="800" rx="24"/>
+  <g transform="translate(80,120)">
+    <rect x="0" y="0" width="360" height="360" rx="12" fill="#ffffff22"/>
+    <rect x="420" y="0" width="360" height="360" rx="12" fill="#ffffff22"/>
+    <rect x="210" y="220" width="360" height="360" rx="12" fill="#ffffff22"/>
+    <text x="30" y="420" class="text" font-size="44">GO Solutions</text>
+    <text x="30" y="470" class="text" font-size="28" fill="#e6f2ff">Team collaborating in a modern office</text>
+  </g>
+</svg>

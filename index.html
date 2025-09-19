@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GO Solutions — Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/design.css" />
+  <link rel="preload" href="images/teamwork-hero-web.avif" as="image" type="image/avif">
+  
+</head>
+<body>
+  <div class="topbar" role="navigation" aria-label="Primary">
+    <div class="nav">
+      <div class="brand">GO SOLUTIONS</div>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+  <li><a href="secondary.html">Login/Register</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <header id="top" class="hero" role="banner" aria-label="GO Solutions Hero">
+    <div class="wrap hero-content">
+      <div class="hero-copy">
+        <h1>GO SOLUTIONS</h1>
+        <p>Think Positive. Think GO.</p>
+        <a class="cta" href="#contact">CONTACT GO NOW!</a>
+      </div>
+      <div class="hero-media" aria-hidden="true">
+        <picture>
+          <source srcset="images/teamwork-hero-web.avif" type="image/avif">
+          <source srcset="images/teamwork-hero-web.webp" type="image/webp">
+          <source srcset="images/teamwork-hero-web.jpg" type="image/jpeg">
+          <img src="images/teamwork-hero.jpg" alt="Team collaborating" loading="lazy">
+        </picture>
+      </div>
+    </div>
+  </header>
+
+  <main>
+      <section class="section features" aria-labelledby="what-we-do">
+        <h2 id="what-we-do">What We Do</h2>
+        <div class="features-grid" role="list">
+          <article class="card" role="listitem">
+            <div class="icon" aria-hidden="true">⚡</div>
+            <h3>Product Strategy</h3>
+            <p>Roadmaps, discovery sprints, and prioritised plans that move ideas to value fast.</p>
+          </article>
+          <article class="card" role="listitem">
+            <div class="icon" aria-hidden="true">🔧</div>
+            <h3>Engineering</h3>
+            <p>Robust, maintainable implementations delivered with quality and speed.</p>
+          </article>
+          <article class="card" role="listitem">
+            <div class="icon" aria-hidden="true">📈</div>
+            <h3>Growth & Support</h3>
+            <p>Go‑to‑market, analytics, and ongoing support to scale what works.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about--compact" aria-labelledby="about">
+        <h2 id="about">About Us</h2>
+        <div class="about-compact">
+          <figure>
+            <picture>
+              <source srcset="images/teamwork-about-web.avif" type="image/avif">
+              <source srcset="images/teamwork-about-web.webp" type="image/webp">
+              <img src="images/teamwork-about.jpg" alt="Team collaborating" loading="lazy">
+            </picture>
+            <figcaption class="img-caption">Our team collaborating</figcaption>
+          </figure>
+
+          <div>
+            <p class="muted">We help organizations build, launch and scale products. Our approach pairs pragmatic strategy with hands‑on delivery so you get measurable outcomes fast.</p>
+            <ul class="compact-list">
+              <li><strong>Practical roadmaps</strong> — focused on impact</li>
+              <li><strong>Cross‑functional teams</strong> — designers, engineers, product</li>
+              <li><strong>Data‑informed decisions</strong> — measure and iterate</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact compact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Get in Touch</h2>
+        <form id="contactForm" class="form compact-form" aria-describedby="contact-help">
+          <div class="row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us briefly about your project" required></textarea>
+          </div>
+          <div id="contact-help" style="font-size:.9rem;color:var(--muted);margin-bottom:8px">Well reply within 1–2 business days.</div>
+          <button class="cta" type="submit">Send Message</button>
+        </form>
+      </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="foot">
+      <span>Copyright GO Inc. 2025. Developed by Gladys Olomukoro.</span>
+    </div>
+  </footer>
+</body>
+</html>

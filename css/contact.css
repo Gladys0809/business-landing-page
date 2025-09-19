@@ -1,0 +1,9 @@
+/* Contact */
+.contact{max-width:var(--container);margin:40px auto;padding:0 20px}
+.contact h2{font-size:18px;letter-spacing:.4px;color:#0b2440;margin:0 0 12px}
+.contact .form{background:#fff;border-radius:12px;box-shadow:var(--shadow);padding:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.contact .form .full{grid-column:1/-1}
+.contact label{display:block;font-size:.9rem;font-weight:600;margin:0 0 6px;color:#0b2440}
+.contact input,.contact textarea{width:100%;border:1px solid #cbd5e1;border-radius:10px;padding:12px;font-size:1rem;outline:none}
+.contact input:focus,.contact textarea:focus{box-shadow:var(--ring);border-color:#94a3b8}
+.contact button{justify-self:start}
