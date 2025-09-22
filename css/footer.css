@@ -1,8 +1,41 @@
-  footer{margin-top:40px;background:#0f2036;color:#cbd5e1}
-    footer .foot{max-width:var(--container);margin:0 auto;padding:14px 20px;font-size:12.5px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px}
-    /* Make footer form narrower to reduce visual weight */
-    footer .foot form{max-width:540px;width:100%;display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-start}
-    footer .foot form input, footer .foot form textarea{box-sizing:border-box}
-    @media (max-width:640px){
-      footer .foot form{max-width:100%;flex-direction:column;align-items:stretch}
-    }
+footer {
+  margin-top: 40px;
+  background: #0f2036;
+  color: #cbd5e1;
+}
+
+footer .foot {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 14px 20px;
+  font-size: 12.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Make footer form narrower to reduce visual weight
+footer .foot form {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+footer .foot form input,
+footer .foot form textarea {
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  footer .foot form {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+*/
